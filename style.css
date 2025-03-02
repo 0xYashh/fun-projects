@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers vertically */
+    align-items: center;     /* centers horizontally */
+    text-align: center;
+    min-height: 100vh;       /* full viewport height */
+    font-family: "JetBrains Mono", monospace;
+    background-color: #fff;
+    color: #000;
+  }
+  
+
+  header {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 0.5rem; */
+  }
+  
+  header h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  header p {
+    margin: 0.5rem 0;
+  }
+  
+  hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #000;
+    margin: 1rem auto;
+  }
+
+  .container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .projects p {
+    margin: 1rem 0;
+  }
+
+  .projects a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .projects a:hover {
+    opacity: 0.8;
+  }
+  
